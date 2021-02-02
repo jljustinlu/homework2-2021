@@ -1,7 +1,7 @@
 body{
 background: #000000;
 color: #ffffff;
-font-family: "Times New Roman", Verdana, sans-serif;
+font-family: "Times New Roman", sans-serif;
 }
 
 h1{
@@ -28,8 +28,8 @@ img{
 }
 
 div{
-    height: 150px;
-    padding: 25px;
+    min-height: 150px;
+    padding: 25px 25px 25px 25px;
 }
 
 #red{
@@ -42,10 +42,13 @@ div{
     text-align: left;
 }
 
-#yellow{
+#yellow h2 p{
     background: #ffff00;
     text-align: right;
     color: #000000;
+}
+
+#yellow h2{
     text-shadow: 4px 4px 2px #c7e2c7; 
 }
 
@@ -55,7 +58,7 @@ div{
 
 }
 
-footer{
+footer p{
     text-align: center;
     padding-bottom: 10px;
     padding-right: 10px;
